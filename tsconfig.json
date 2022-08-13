@@ -14,11 +14,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
     "paths": {
-      "$pages/*": ["$pages/*"],
-      "$lib/*": ["./lib/*"],
-      "$styles/*": ["./styles/*"]
+      "$pages/*": ["./src/pages/*"],
+      "$lib/*": ["./src/lib/*"],
+      "$styles/*": ["./src/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
