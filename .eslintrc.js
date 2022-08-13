@@ -68,6 +68,10 @@ module.exports = {
             pattern: '$*/**',
             group: 'internal',
           },
+          {
+            pattern: '$config',
+            group: 'internal',
+          },
         ],
         'newlines-between': 'always',
         pathGroupsExcludedImportTypes: [],

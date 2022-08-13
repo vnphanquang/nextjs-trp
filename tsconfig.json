@@ -14,9 +14,13 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "paths": {
+      "$config": ["./src/config/index.ts"],
+      "$config/*": ["./src/config/*"],
       "$pages/*": ["./src/pages/*"],
       "$lib/*": ["./src/lib/*"],
+      "$server/*": ["./src/server/*"],
       "$styles/*": ["./src/styles/*"]
     }
   },
